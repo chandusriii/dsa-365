@@ -114,22 +114,22 @@ def test_two_sum():
 
     # Test case 1: Basic example
     assert solution.twoSum([2, 7, 11, 15], 9) == [0, 1]
-    print("✓ Test 1 passed: [2,7,11,15], target=9")
+    print("PASS: Test 1 passed: [2,7,11,15], target=9")
 
     # Test case 2: Different order
     assert solution.twoSum([3, 2, 4], 6) == [1, 2]
-    print("✓ Test 2 passed: [3,2,4], target=6")
+    print("PASS: Test 2 passed: [3,2,4], target=6")
 
     # Test case 3: Duplicates
     result = solution.twoSum([3, 3], 6)
     assert result == [0, 1]
-    print("✓ Test 3 passed: [3,3], target=6")
+    print("PASS: Test 3 passed: [3,3], target=6")
 
     # Test case 4: Larger array
     assert solution.twoSum([2, 5, 5, 11], 10) == [1, 2]
-    print("✓ Test 4 passed: [2,5,5,11], target=10")
+    print("PASS: Test 4 passed: [2,5,5,11], target=10")
 
-    print("\n✅ All tests passed!")
+    print("\nAll tests passed!")
 
 
 if __name__ == "__main__":
